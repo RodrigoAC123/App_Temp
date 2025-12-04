@@ -11,7 +11,7 @@ def user_input_features():
   # Entrada
   País = st.number_input('Elije el país (México=0):', min_value=1, max_value=1, value = 1, step = 1)
   Ciudad = st.number_input('Elije tu ciudad (Acapulco:0  Acuña:1  Aguascalientes:2): ',  min_value=0, max_value=2, value = 1, step = 1)
-  Año = st.number_input('Año a predecir', min_value=1000, max_value=2025, value = 2000, step = 1)
+  Año = st.number_input('Año a predecir', min_value=1823, max_value=2013, value = 2000, step = 1)
   Mes = st.number_input('Mes a predecir:', min_value=1, max_value=12, value = 4, step = 1)
   
 
